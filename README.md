@@ -121,7 +121,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 }
 ```
 
-### 3.1.6 根据 LP Token 地址获取矿池信息
+#### 3.1.6 根据 LP Token 地址获取矿池信息
 
 function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
@@ -151,7 +151,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 }
 ```
 
-### 3.1.7 获取所有矿池信息
+#### 3.1.7 获取所有矿池信息
 
 function getAllPoolViews() external view returns (PoolView[]);
 
@@ -159,7 +159,7 @@ function getAllPoolViews() external view returns (PoolView[]);
 
 返回数据：所以矿池信息的数组 PoolView[]
 
-### 3.1.8 获取用户在某一个矿池的信息
+#### 3.1.8 获取用户在某一个矿池的信息
 
 function getUserView(address lpToken, address account) public view returns (UserView);
 
@@ -176,7 +176,7 @@ function getUserView(address lpToken, address account) public view returns (User
 }
 ```
 
-### 3.1.9 获取用户在所有矿池的信息
+#### 3.1.9 获取用户在所有矿池的信息
 
 function getUserViews(address account) external view returns (UserView[]);
 
@@ -184,7 +184,7 @@ function getUserViews(address account) external view returns (UserView[]);
 
 返回数据：用户所有的矿池信息，格式为 UserView[]
 
-### 3.1.10 获取用户在某个矿池的待领取 KST 奖励
+#### 3.1.10 获取用户在某个矿池的待领取 KST 奖励
 
 function pendingKst(uint256 _pid, address _user) public view returns (uint256);
 
@@ -277,7 +277,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 }
 ```
 
-### 3.2.6 根据 LP Token 地址获取矿池信息
+#### 3.2.6 根据 LP Token 地址获取矿池信息
 
 function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
@@ -308,7 +308,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 }
 ```
 
-### 3.2.7 获取所有矿池信息
+#### 3.2.7 获取所有矿池信息
 
 function getAllPoolViews() external view returns (PoolView[]);
 
@@ -316,7 +316,7 @@ function getAllPoolViews() external view returns (PoolView[]);
 
 返回数据：所以矿池信息的数组 PoolView[]
 
-### 3.2.8 获取用户在某一个矿池的信息
+#### 3.2.8 获取用户在某一个矿池的信息
 
 function getUserView(address lpToken, address account) public view returns (UserView);
 
@@ -333,7 +333,7 @@ function getUserView(address lpToken, address account) public view returns (User
 }
 ```
 
-### 3.2.9 获取用户在所有矿池的信息
+#### 3.2.9 获取用户在所有矿池的信息
 
 function getUserViews(address account) external view returns (UserView[]);
 
@@ -341,7 +341,7 @@ function getUserViews(address account) external view returns (UserView[]);
 
 返回数据：用户所有的矿池信息，格式为 UserView[]
 
-### 3.2.10 获取用户在某个矿池的待领取 KST 奖励
+#### 3.2.10 获取用户在某个矿池的待领取 KST 奖励
 
 function pendingKst(uint256 _pid, address _user) public view returns (uint256);
 
@@ -422,7 +422,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 }
 ```
 
-### 3.3.6 根据 LP Token 地址获取矿池信息
+#### 3.3.6 根据 LP Token 地址获取矿池信息
 
 function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
@@ -447,7 +447,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 }
 ```
 
-### 3.3.7 获取所有矿池信息
+#### 3.3.7 获取所有矿池信息
 
 function getAllPoolViews() external view returns (PoolView[]);
 
@@ -455,7 +455,7 @@ function getAllPoolViews() external view returns (PoolView[]);
 
 返回数据：所以矿池信息的数组 PoolView[]
 
-### 3.3.8 获取用户在某一个矿池的信息
+#### 3.3.8 获取用户在某一个矿池的信息
 
 function getUserView(address lpToken, address account) public view returns (UserView);
 
@@ -472,7 +472,7 @@ function getUserView(address lpToken, address account) public view returns (User
 }
 ```
 
-### 3.3.9 获取用户在所有矿池的信息
+#### 3.3.9 获取用户在所有矿池的信息
 
 function getUserViews(address account) external view returns (UserView[]);
 
@@ -480,7 +480,7 @@ function getUserViews(address account) external view returns (UserView[]);
 
 返回数据：用户所有的矿池信息，格式为 UserView[]
 
-### 3.3.10 获取用户在某个矿池的待领取 KST 奖励
+#### 3.3.10 获取用户在某个矿池的待领取 KST 奖励
 
 function pendingKst(uint256 _pid, address _user) public view returns (uint256);
 
