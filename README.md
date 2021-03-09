@@ -97,7 +97,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 
 参数描述：pool id
 
-返回数据：pool id 所对应的矿池信息，各位为 PoolView
+返回数据：pool id 所对应的矿池信息，格式为 PoolView
 
 ```
 {
@@ -127,7 +127,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
 参数描述: LP Token 地址
 
-返回数据: LP Token 地址所对应的矿池信息，各位为 PoolView
+返回数据: LP Token 地址所对应的矿池信息，格式为 PoolView
 
 ```
 {
@@ -252,7 +252,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 
 参数描述：pool id
 
-返回数据：pool id 所对应的矿池信息，各位为 PoolView
+返回数据：pool id 所对应的矿池信息，格式为 PoolView
 
 ```
 {
@@ -283,7 +283,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
 参数描述: LP Token 地址
 
-返回数据: LP Token 地址所对应的矿池信息，各位为 PoolView
+返回数据: LP Token 地址所对应的矿池信息，格式为 PoolView
 
 ```
 {
@@ -403,7 +403,7 @@ function getPoolView(uint256 pid) public view returns (PoolView);
 
 参数描述：pool id
 
-返回数据：pool id 所对应的矿池信息，各位为 PoolView
+返回数据：pool id 所对应的矿池信息，格式为 PoolView
 
 ```
 {
@@ -428,7 +428,7 @@ function getPoolViewByAddress(address lpToken) public view returns (PoolView);
 
 参数描述: LP Token 地址
 
-返回数据: LP Token 地址所对应的矿池信息，各位为 PoolView
+返回数据: LP Token 地址所对应的矿池信息，格式为 PoolView
 
 ```
 {
